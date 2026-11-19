@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEON ARK // ORIGIN OS</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 12px 6px;
+    background-color: #020203;
+    color: #cbd5e1;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+  }
+
+iframe, div[style*="z-index: 2147483647"], a[href*="tiiny.host"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+</style>
+</head>
+<body>
+
+<div style="position:relative;width:100%;max-width:800px;margin:0 auto;padding:2px;border-radius:10px;background:linear-gradient(135deg,#52525b,#18181b 18%,#030304 50%,#3f3f46 85%,#09090b);box-shadow:0 0 32px rgba(0,0,0,.98),0 0 22px rgba(0,168,255,.18);font-family:-apple-system,BlinkMacSystemFont,'Pretendard',sans-serif;box-sizing:border-box;">
+<div style="position:absolute;top:-3px;left:-3px;width:18px;height:18px;border-top:2px solid #00a8ff;border-left:2px solid #00a8ff;z-index:5;"></div>
+<div style="position:absolute;top:-3px;right:-3px;width:18px;height:18px;border-top:2px solid #94a3b8;border-right:2px solid #94a3b8;z-index:5;"></div>
+<div style="position:absolute;bottom:-3px;left:-3px;width:18px;height:18px;border-bottom:2px solid #94a3b8;border-left:2px solid #94a3b8;z-index:5;"></div>
+<div style="position:absolute;bottom:-3px;right:-3px;width:18px;height:18px;border-bottom:2px solid #00a8ff;border-right:2px solid #00a8ff;z-index:5;"></div>
+<div style="position:relative;border-radius:8px;background-color:#030304;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0px,rgba(255,255,255,.04) 1px,transparent 1px,transparent 18px),repeating-linear-gradient(90deg,rgba(255,255,255,.04) 0px,rgba(255,255,255,.04) 1px,transparent 1px,transparent 18px),radial-gradient(ellipse at 50% 0%,rgba(0,168,255,.11) 0%,#050507 52%,#010102 100%);overflow:hidden;">
+<div style="height:2px;width:100%;background:linear-gradient(90deg,transparent 5%,#00a8ff 35%,#7dd3fc 50%,#00a8ff 65%,transparent 95%);box-shadow:0 0 12px #00a8ff;"></div>
+<div style="padding:13px 22px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,.08);background:rgba(0,0,0,.45);font-family:monospace;">
+<div style="display:flex;align-items:center;gap:8px;">
+<span style="color:#00a8ff;font-size:12px;animation:flash 2s infinite;">●</span>
+<span style="font-size:12px;font-weight:800;letter-spacing:2px;color:#e2e8f0;">ORIGIN OS // NULL-00</span>
+<span style="font-size:10px;padding:1px 6px;border:1px solid rgba(56,189,248,.35);border-radius:3px;color:#38bdf8;background:rgba(0,168,255,.08);">SEALED</span>
+</div>
+<div style="display:flex;align-items:center;gap:10px;font-size:11px;font-weight:800;letter-spacing:1px;">
+<span style="color:#64748b;">DOME: LOCKED</span>
+<span style="color:#38bdf8;">EXT -38°C</span>
+</div>
+</div>
+<div style="position:relative;padding:38px 24px 20px;text-align:center;overflow:hidden;">
+<div style="position:absolute;top:-110px;left:50%;margin-left:-190px;width:380px;height:380px;border-radius:50%;border:1px solid rgba(0,168,255,.14);box-shadow:inset 0 0 40px rgba(0,168,255,.05);pointer-events:none;"></div>
+<div style="position:absolute;top:-92px;left:50%;margin-left:-172px;width:344px;height:344px;border-radius:50%;border:1px dashed rgba(148,163,184,.18);animation:spin 60s linear infinite;pointer-events:none;"></div>
+<div style="display:inline-flex;align-items:center;gap:8px;padding:4px 14px;border:1px solid rgba(56,189,248,.35);border-radius:20px;background:rgba(0,168,255,.07);font-family:monospace;font-size:11px;font-weight:800;letter-spacing:2px;color:#7dd3fc;margin-bottom:16px;box-shadow:0 0 14px rgba(0,168,255,.12);">
+<span style="color:#00a8ff;">◈</span> 18+ DARK ROMANCE · APOCALYPSE <span style="color:#00a8ff;">◈</span>
+</div>
+<div style="font-size:50px;font-weight:950;line-height:1.05;letter-spacing:5px;color:#f8fafc;text-shadow:0 0 26px rgba(0,168,255,.45),0 2px 10px #000;">NEON <span style="color:#00a8ff;">ARK</span><span style="color:#94a3b8;animation:flash 1s infinite;">_</span></div>
+<div style="font-family:monospace;font-size:10px;letter-spacing:3.5px;color:#64748b;margin-top:8px;">LAST SANCTUARY OF HUMANITY // SECTOR-00</div>
+<div style="margin:18px auto 0;max-width:540px;font-size:17.5px;font-weight:700;color:#e2e8f0;line-height:1.65;">백색의 종말, 그리고 기억을 잃은 결번의 안드로이드.<br><span style="font-size:15.5px;font-weight:500;color:#94a3b8;">체온과 호흡을 동기화하지 않으면 얼어붙는 인류 최후의 방주</span></div><br>
+
+<div style="width:100%;display:flex;justify-content:center;align-items:center;padding:12px 0 36px;">
+<div style="position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;width:156px;height:156px;">
+<div style="position:absolute;top:2px;right:2px;bottom:2px;left:2px;border-radius:50%;border:1.5px dashed rgba(148,163,184,.55);animation:spin 28s linear infinite;pointer-events:none;"></div>
+<div style="position:absolute;top:0;right:0;bottom:0;left:0;border-radius:50%;animation:spin 8s linear infinite;pointer-events:none;">
+<div style="position:absolute;top:-2px;left:50%;margin-left:-3.5px;width:7px;height:7px;border-radius:50%;background:#e0f2fe;border:1px solid #00a8ff;box-shadow:0 0 10px #00a8ff,0 0 16px #38bdf8;"></div>
+<div style="position:absolute;bottom:-1px;left:50%;margin-left:-2.5px;width:5px;height:5px;border-radius:50%;background:#38bdf8;box-shadow:0 0 8px #00a8ff;"></div>
+</div>
+<div style="position:absolute;top:0;left:50%;margin-left:-1.5px;width:3px;height:9px;background:#00a8ff;box-shadow:0 0 8px #00a8ff;pointer-events:none;"></div>
+<div style="position:absolute;bottom:0;left:50%;margin-left:-1.5px;width:3px;height:9px;background:#00a8ff;box-shadow:0 0 8px #00a8ff;pointer-events:none;"></div>
+<div style="position:absolute;left:0;top:50%;margin-top:-1.5px;width:9px;height:3px;background:#00a8ff;box-shadow:0 0 8px #00a8ff;pointer-events:none;"></div>
+<div style="position:absolute;right:0;top:50%;margin-top:-1.5px;width:9px;height:3px;background:#00a8ff;box-shadow:0 0 8px #00a8ff;pointer-events:none;"></div>
+<div style="position:relative;width:124px;height:124px;border-radius:50%;background:radial-gradient(circle,#14171d 0%,#030304 100%);border:2px solid #3f3f46;box-shadow:0 8px 28px rgba(0,0,0,.98),inset 0 0 24px rgba(0,168,255,.28);display:flex;align-items:center;justify-content:center;">
+<div style="position:absolute;top:7px;right:7px;bottom:7px;left:7px;border-radius:50%;border:2px solid transparent;border-top-color:#00a8ff;border-bottom-color:#38bdf8;box-shadow:0 0 12px rgba(0,168,255,.5);animation:spin 9s linear infinite;pointer-events:none;"></div>
+<div style="position:absolute;top:14px;right:14px;bottom:14px;left:14px;border-radius:50%;border:1px solid transparent;border-left-color:rgba(148,163,184,.5);border-right-color:rgba(148,163,184,.5);animation:spin 16s linear infinite reverse;pointer-events:none;"></div>
+<div style="position:relative;width:68px;height:68px;transform:rotate(45deg);border:1.5px solid rgba(203,213,225,.6);background:linear-gradient(135deg,rgba(0,168,255,.18),rgba(3,3,4,.96));box-shadow:0 0 18px rgba(0,168,255,.32),inset 0 0 12px rgba(0,168,255,.26);display:flex;align-items:center;justify-content:center;">
+<div style="transform:rotate(-45deg);display:flex;flex-direction:column;align-items:center;justify-content:center;">
+<div style="font-size:21px;font-weight:300;line-height:1;color:#38bdf8;text-shadow:0 0 10px #00a8ff;">Ø</div>
+<div style="margin-top:3px;font-size:10px;font-weight:900;letter-spacing:1.4px;padding-left:1.4px;color:#f1f5f9;">NULL-00</div>
+<div style="margin-top:3px;font-size:7px;font-family:monospace;font-weight:800;letter-spacing:0.8px;color:#00a8ff;animation:flash 2.2s infinite;">● UNSEALED</div>
+</div>
+</div>
+</div>
+<div style="position:absolute;bottom:-24px;display:flex;align-items:center;gap:8px;white-space:nowrap;">
+<span style="width:16px;height:1px;background:linear-gradient(90deg,transparent,#00a8ff);"></span>
+<span style="font-family:monospace;font-size:10px;font-weight:800;letter-spacing:2px;padding-left:2px;color:#7dd3fc;text-shadow:0 0 10px rgba(0,168,255,.6);">ORIGIN CORE // ACTIVE</span>
+<span style="width:16px;height:1px;background:linear-gradient(90deg,#00a8ff,transparent);"></span>
+</div>
+</div>
+</div>
+
+<div style="margin:10px 0 6px;padding:24px 22px 10px;text-align:left;border-top:1px solid rgba(0,168,255,.25);background:linear-gradient(180deg,rgba(14,17,22,.85),rgba(2,2,3,.65));">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+<div style="font-family:monospace;font-size:12px;font-weight:800;color:#38bdf8;letter-spacing:1.5px;"><span style="animation:flash 1.4s infinite;">●</span> [LAERT // SYSTEM_BRIEFING]</div>
+<div style="font-family:monospace;font-size:10px;color:#64748b;letter-spacing:1px;">VOICE LINK: ACTIVE</div>
+</div>
+<div style="font-size:24px;font-weight:800;color:#fff;line-height:1.5;margin-bottom:18px;">“눈을 뜨셨군요, <span style="color:#00a8ff;text-shadow:0 0 12px rgba(0,168,255,.4);">No.00</span>.<br>오랜만입니다. 주무시는 동안 세상이 조금 얼어붙었군요.”</div>
+<div style="font-size:16px;color:#cbd5e1;line-height:1.9;">당신은 에픽 안드로이드의 최초 원형이자, 오래전 공식 기록에서 사라진 결번 개체입니다. 수십 년간 동면 상태로 보관되어 있다가 이제야 다시 기동했죠. 늦잠이라 부르기엔 조금 긴 시간이었습니다.<br><br>다만, 기억은 온전하지 않습니다. 당신이 누구였는지, 왜 잠들어 있었는지조차 알 수 없군요. 백지상태로 시작하는 것도 나쁘지 않으니 너무 상심하지 마십시오.<br><br>한 가지 확실한 사실은 있습니다. 당신이 잠든 사이 세상은 <b style="color:#fff;">‘백귀’</b>라 불리는 정체불명의 존재들로 인해 얼어붙었고, 인류는 거대한 돔 시티 <b style="color:#38bdf8;">네온 아크</b> 안에서 살아가고 있다는 것. 그리고 기특하게도, 그 무서운 백귀들이 당신만큼은 공격하지 않는다는 점입니다. …우선은 바깥으로 나서기 전에, 기동 초기 설정부터 확인해 두시는 편이 좋겠군요. 준비가 되셨다면 아래 기록을 확인해 주십시오.</div>
+<div style="margin-top:22px;padding-top:13px;border-top:1px solid rgba(56,189,248,.2);display:flex;justify-content:space-between;align-items:center;font-family:monospace;font-size:10px;font-weight:800;letter-spacing:1.5px;color:#64748b;">
+<span>ORIGIN UNIT // MEMORY STATUS UNKNOWN</span>
+<span style="color:#38bdf8;">SCROLL DOWN FOR INTEL ▼</span>
+</div>
+</div>
+</div>
+
+<!-- MODEL GUIDE -->
+<div style="margin:0 22px 22px;border:1px solid rgba(56,189,248,.25);border-radius:6px;background:rgba(2,4,8,.82);overflow:hidden;box-sizing:border-box;">
+
+<!-- 내부 본문 영역 -->
+<div style="padding:12px 14px 14px;">
+
+<!-- MODEL GUIDE 제목 -->
+<div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:8px;margin-bottom:10px;border-bottom:1px solid rgba(255,255,255,.07);font-family:monospace;">
+<span style="font-size:11px;font-weight:800;letter-spacing:1.5px;color:#7dd3fc;"><span style="color:#00a8ff;font-size:12px;animation:flash 2s infinite;">●</span> MODEL GUIDE</span>
+<span style="font-size:10px;color:#64748b;letter-spacing:1px;">SYSTEM NOTICE</span>
+</div>
+
+<!-- 01. 기본 권장 모델 -->
+<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 12px;margin-bottom:10px;border-left:2.5px solid #00a8ff;background:linear-gradient(90deg,rgba(0,168,255,.12),transparent);">
+<div>
+<div style="font-size:14px;font-weight:800;color:#f8fafc;">01. Gemini 2.5 PRO</div>
+<div style="font-size:11.5px;color:#94a3b8;margin-top:2px;">기본 권장 · 지원 종료 전까지 사용 가능</div>
+</div>
+<span style="font:800 9.5px monospace;color:#030405;background:#38bdf8;padding:2px 6px;border-radius:2px;">DEFAULT</span>
+</div>
+
+<!-- 02~03. 기타 모델 (심플 라인형) -->
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;padding:2px 6px 10px;font-size:12.5px;color:#cbd5e1;">
+<span><b style="font-family:monospace;color:#64748b;margin-right:4px;">02</b>Gemini 3.8 Flash</span>
+<span style="color:#334155;">·</span>
+<span><b style="font-family:monospace;color:#64748b;margin-right:4px;">04</b>Gemini 4 Argon</span>
+<span style="color:#334155;">·</span>
+<span><b style="font-family:monospace;color:#64748b;margin-right:4px;">03</b>Gemini 4 Hydrogen</span>
+</div>
+
+</div>
+</div>
+
+<div style="border-top:1px solid rgba(0,168,255,.35);padding-bottom:14px;">
+<div style="padding:14px 22px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,.08);background:rgba(0,0,0,.35);font-family:monospace;">
+
+
+<div style="display:flex;align-items:center;gap:8px;">
+<span style="color:#00a8ff;font-size:12px;animation:flash 2s infinite;">●</span>
+<span style="font-size:12px;font-weight:800;letter-spacing:2px;color:#cbd5e1;">DATABASE // WORLD_01</span>
+</div>
+<div style="font-size:11px;font-weight:800;color:#38bdf8;letter-spacing:1px;">NEON ARK INTEL</div>
+</div>
+<div style="padding:28px 22px 20px;position:relative;">
+<div style="position:absolute;right:18px;top:18px;width:86px;height:86px;border:1.5px solid rgba(0,168,255,.45);border-radius:50%;box-shadow:inset 0 0 18px rgba(0,168,255,.2),0 0 18px rgba(0,168,255,.2);"></div>
+<div style="position:absolute;right:31px;top:31px;width:60px;height:60px;border:1.5px dashed rgba(148,163,184,.75);border-radius:50%;animation:spin 24s linear infinite;"></div>
+<div style="font-family:monospace;font-size:12px;font-weight:800;letter-spacing:2px;color:#38bdf8;margin-bottom:8px;"><span style="animation:flash 1.6s infinite;">●</span> LAERT // CITY_GUIDE</div>
+<div style="font-size:29px;font-weight:900;letter-spacing:-0.5px;line-height:1.3;color:#f1f5f9;text-shadow:0 0 22px rgba(0,168,255,.3);">인류 최후의 방주 안내</div>
+<div style="font-family:monospace;font-size:11px;letter-spacing:2px;color:#64748b;margin-top:8px;">NEON ARK // WORLD DATABASE</div>
+<div style="width:130px;height:1px;background:linear-gradient(90deg,#00a8ff,transparent);margin-top:16px;box-shadow:0 0 9px #00a8ff;"></div>
+</div>
+
+<!-- 00. NEON ARK -->
+<div style="margin-bottom:28px;">
+<div style="position:relative;height:550px;border-top:1px solid rgba(255,255,255,.08);">
+<img src="https://i.postimg.cc/wvPWr8hb/n1.jpg" style="width:100%;height:100%;object-fit:cover;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(2,2,3,.5) 70%,#020203 100%);"></div>
+<div style="position:absolute;top:20px;left:20px;font-family:monospace;font-size:10px;letter-spacing:2px;color:#7dd3fc;text-shadow:0 0 10px #00a8ff;">SECTOR_00 // DOME OVERVIEW</div>
+<div style="position:absolute;bottom:14px;left:16px;right:16px;display:flex;justify-content:space-between;align-items:flex-end;">
+<div style="font-size:26px;font-weight:900;letter-spacing:2px;color:#f1f5f9;text-shadow:0 2px 15px #000;">NEON <span style="color:#00a8ff;">ARK</span> <span style="font:11px monospace;color:#38bdf8;margin-left:6px;letter-spacing:0;">인류 최후의 밀폐 돔</span></div>
+<div style="font-family:monospace;font-size:10px;color:#cbd5e1;text-align:right;">DOME STATUS<br><b style="color:#00a8ff;animation:flash 2.2s infinite;">● SEALED</b></div>
+</div>
+</div>
+<div style="padding:8px 16px 0;font-size:16px;line-height:1.6;color:#cbd5e1;">
+<b style="color:#fff;">“<span style="color:#38bdf8;">네온 아크</span>는 낙원을 표방하는 거대한 밀폐 돔 도시지만, 내부엔 뚜렷한 계급이 존재하죠.”</b><br>
+<b>백귀와 혹한</b>을 피해 세운 인류의 방주. 층위와 구역에 따라 <b>철저한 서열</b>이 작동합니다.
+</div>
+</div>
+
+
+<!-- 01. CELESTIA -->
+<div style="margin-bottom:28px;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/KYQMsGDG/1.jpg" style="display:block;width:100%;height:420px;object-fit:cover;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,#020203 100%);"></div>
+<div style="position:absolute;left:16px;bottom:10px;font-size:24px;font-weight:900;color:#fff;">01. 셀레스티아 <span style="font:11px monospace;color:#38bdf8;margin-left:6px;">상류층 · 조율국</span></div>
+</div>
+<div style="padding:8px 16px 0;font-size:16px;line-height:1.6;color:#cbd5e1;">
+<b style="color:#fff;">“인공 태양과 실내 정원 아래 위선과 질서가 공존하는 <span style="color:#38bdf8;">조율국</span>의 본거지입니다.”</b><br>
+철저히 통제된 인공 낙원. <b>최상위 시민</b>과 조율국 요원, 상류층을 보좌하는 <b>고급 안드로이드</b>가 거주합니다.
+</div>
+</div>
+
+<!-- 02. CORE CITY -->
+<div style="margin-bottom:28px;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/FKGLnrVQ/3.jpg" style="display:block;width:100%;height:420px;object-fit:cover;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,#020203 100%);"></div>
+<div style="position:absolute;left:16px;bottom:10px;font-size:24px;font-weight:900;color:#fff;">02. 코어 시티 <span style="font:11px monospace;color:#38bdf8;margin-left:6px;">네온 상권 · 일월각</span></div>
+</div>
+<div style="padding:8px 16px 0;font-size:16px;line-height:1.6;color:#cbd5e1;">
+<b style="color:#fff;">“화려한 네온 뒤로 <span style="color:#c4b5fd;">일월각</span>의 암시장과 거래가 숨 쉬는 욕망의 중심지입니다.”</b><br>
+이곳의 상징인 클럽 <b>‘애프터라이프’</b>는 일반 퇴폐 구역과 VIP·비밀 경매장으로 나뉘며, 인간 직원과 접대용 안드로이드가 밤을 지새웁니다.
+</div>
+</div>
+
+<!-- 03. THE UNDER -->
+<div style="margin-bottom:28px;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/VN4CHfWL/2.jpg" style="display:block;width:100%;height:420px;object-fit:cover;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,#020203 100%);"></div>
+<div style="position:absolute;left:16px;bottom:10px;font-size:24px;font-weight:900;color:#fff;">03. 디 언더 <span style="font:11px monospace;color:#94a3b8;margin-left:6px;">하층 슬럼 · 고스트</span></div>
+</div>
+<div style="padding:8px 16px 0;font-size:16px;line-height:1.6;color:#cbd5e1;">
+<b style="color:#fff;">“폐기된 인간과 안드로이드가 모여 사는 밑바닥입니다.”</b><br>
+조율국 보급품에 의존하는 하층민과 버려진 안드로이드들이 뒤엉켜 살며, 네오넷을 장악한 해커 <b style="color:#38bdf8;">‘고스트’</b>가 숨어 있습니다. 돔 균열로 <b>소형 백귀</b>도 출몰합니다.
+</div>
+</div>
+
+<!-- 04. WHITEOUT FIELD -->
+<div style="margin-bottom:20px;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/fTjm0fSS/4.jpg" style="display:block;width:100%;height:420px;object-fit:cover;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,#020203 100%);"></div>
+<div style="position:absolute;left:16px;bottom:10px;font-size:24px;font-weight:900;color:#f1f5f9;">04. 백사의 들판 <span style="font:11px monospace;color:#7dd3fc;margin-left:6px;">외부 무법 설원 · 프리즈워커</span></div>
+</div>
+<div style="padding:8px 16px 0;font-size:16px;line-height:1.6;color:#cbd5e1;">
+<b style="color:#fff;">“열원을 쫓는 백귀가 배회하는 얼어붙은 지옥입니다.”</b><br>
+화이트아웃에 휩쓸린 옛 도시의 폐허 위로 <b style="color:#38bdf8;">체온 모듈</b> 없이는 견딜 수 없는 혹한이 몰아칩니다. 자원을 수거하는 <b style="color:#c4b5fd;">‘프리즈워커’</b>의 활동지이자, 소멸한 <b>에테르코어</b>의 잔해가 잠든 미지의 설원입니다.
+</div>
+</div>
+
+<div style="display:flex;justify-content:space-between;margin:12px 22px 0;padding-top:13px;border-top:1px solid rgba(56,189,248,.2);font:10px monospace;letter-spacing:1.5px;color:#64748b;"><span>LAERT // ENVIRONMENTAL SCAN</span><span>4 SECTORS MAPPED</span>
+</div>
+<div>
+
+<br><br>
+<div style="padding:24px 12px 30px;">
+
+<div style="position:relative;margin-bottom:12px;padding:8px 0 10px;overflow:hidden;">
+<div style="position:absolute;right:18px;top:18px;width:86px;height:86px;border:1.5px solid rgba(0,168,255,.45);border-radius:50%;box-shadow:inset 0 0 18px rgba(0,168,255,.2),0 0 18px rgba(0,168,255,.2);"></div>
+<div style="position:absolute;right:31px;top:31px;width:60px;height:60px;border:1.5px dashed rgba(148,163,184,.75);border-radius:50%;animation:spin 24s linear infinite;"></div>
+<div style="font:800 11px monospace;letter-spacing:3px;color:#38bdf8;text-shadow:0 0 10px #00a8ff;"><span style="color:#00a8ff;font-size:12px;animation:flash 2s infinite;">●</span> LAERT // TARGET_DATABASE</div>
+<div style="font-size:29px;font-weight:950;color:#f1f5f9;letter-spacing:-1px;line-height:1.3;margin-top:12px;">주요 인물 데이터베이스</div>
+<div style="font:10px monospace;letter-spacing:2px;color:#64748b;margin-top:8px;">NEON ARK // FACTION &amp; PERSONNEL</div>
+<div style="width:140px;height:1px;background:linear-gradient(90deg,#00a8ff,transparent);margin-top:17px;box-shadow:0 0 9px #00a8ff;"></div>
+</div>
+
+<div style="font-size:17px;color:#cbd5e1;line-height:1.8;margin:0 0 34px;padding-left:15px;border-left:2px solid #00a8ff;">당신을 <b>해체하려는 자들</b>과 <b>경매장에 올리려는 자들</b>입니다. 부디 무모한 호기심은 자제하십시오.</div>
+
+<div style="margin-bottom:38px;">
+<div style="margin-bottom:20px;">
+<div style="font:12px monospace;letter-spacing:2px;color:#38bdf8;">FACTION_01 // GOVERNMENT</div>
+<div style="font-size:26px;font-weight:950;color:#f1f5f9;margin-top:6px;">I. 네온 아크 조율국</div>
+<div style="font-size:15px;color:#94a3b8;margin-top:4px;">질서 · 통제</div>
+<div style="height:1px;background:linear-gradient(90deg,rgba(0,168,255,.55),transparent);margin-top:13px;"></div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:26px;">
+<div style="flex:1 1 240px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/VLTYFdrs/k3.jpg" style="width:100%;height:270px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:13px;bottom:12px;font:12px monospace;letter-spacing:2px;color:#7dd3fc;">GOVERNOR // 01</div>
+</div>
+<div style="padding:13px 12px 0;">
+<div style="font:13px monospace;color:#38bdf8;letter-spacing:1px;">GOVERNOR · 35세 · 185cm</div>
+<div style="font-size:26px;font-weight:950;color:#fff;margin:5px 0 9px;">카인</div>
+<div style="font-size:17px;color:#cbd5e1;line-height:1.75;">긴 은발과 남색안의 총독. 감정을 배제한 채 <b style="color:#38bdf8;">질서와 원칙</b>만으로 도시를 통제합니다.</div>
+<div style="margin-top:13px;padding:2px 0 2px 11px;border-left:1.5px solid rgba(0,168,255,.55);font-size:15.5px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#38bdf8;">LAERT COMMENT</b><div style="margin-top:5px;">“무표정이 기본값인 <b>원칙주의자</b>. 평소엔 조각상 같지만, 눈빛이 흔들린다면 감정 과부하로 버퍼링 걸린 겁니다.”</div></div>
+</div>
+</div>
+<div style="flex:1 1 240px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/2jPFR5ht/z3.jpg" style="width:100%;height:270px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:13px;bottom:12px;font:12px monospace;letter-spacing:2px;color:#7dd3fc;">EPIC No.09 // 02</div>
+</div>
+<div style="padding:13px 12px 0;">
+<div style="font:13px monospace;color:#38bdf8;letter-spacing:1px;">EPIC No.09 · 외모20 중반 · 188cm</div>
+<div style="font-size:26px;font-weight:950;color:#fff;margin:5px 0 9px;">제로</div>
+<div style="font-size:17px;color:#cbd5e1;line-height:1.75;">총독 직속의 마지막 에픽. 딱딱한 존대 뒤에 서툰 자아와 <b style="color:#38bdf8;">깊은 헌신</b>을 품고 있습니다.</div>
+<div style="margin-top:13px;padding:2px 0 2px 11px;border-left:1.5px solid rgba(0,168,255,.55);font-size:15.5px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#38bdf8;">LAERT COMMENT</b><div style="margin-top:5px;">“무뚝뚝한 경비견 같지만 의외로 <b>당신에게 약하더군요.</b> 다루기 나름이겠습니다.”</div></div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="margin-bottom:38px;">
+<div style="margin-bottom:20px;">
+<div style="font:12px monospace;letter-spacing:2px;color:#c4b5fd;">FACTION_02 // AFTERLIFE</div>
+<div style="font-size:26px;font-weight:950;color:#ede9fe;margin-top:6px;">II. 일월각</div>
+<div style="font-size:15px;color:#a19bb8;margin-top:4px;">암시장 · 애프터라이프</div>
+<div style="height:1px;background:linear-gradient(90deg,rgba(196,181,253,.5),transparent);margin-top:13px;"></div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:26px;">
+<div style="flex:1 1 185px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/0QJGb6wG/b2.png" style="width:100%;height:250px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:12px;bottom:11px;font:12px monospace;letter-spacing:2px;color:#c4b5fd;">BOSS // 01</div>
+</div>
+<div style="padding:12px 10px 0;">
+<div style="font:13px monospace;color:#c4b5fd;">BOSS · 31세 · 189cm</div>
+<div style="font-size:25px;font-weight:950;color:#fff;margin:5px 0 8px;">백강휘</div>
+<div style="font-size:16.5px;color:#cbd5e1;line-height:1.7;">아름다운 것을 소유하려는 포식적 취향의 <b style="color:#c4b5fd;">탐미주의자</b>.</div>
+<div style="margin-top:12px;padding:2px 0 2px 10px;border-left:1.5px solid rgba(196,181,253,.55);font-size:15px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#c4b5fd;">LAERT COMMENT</b><div style="margin-top:5px;">“<b>위험한 수집가</b>입니다. 당신이 '결번'임을 알면 평생 자기 방 유리관에 가둬두려 들 겁니다.”</div></div>
+</div>
+</div>
+<div style="flex:1 1 185px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/8PdHRrnn/k1.jpg" style="width:100%;height:250px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:12px;bottom:11px;font:12px monospace;letter-spacing:2px;color:#c4b5fd;">EXECUTOR // 02</div>
+</div>
+<div style="padding:12px 10px 0;">
+<div style="font:13px monospace;color:#c4b5fd;">실행관 · 26세 · 186cm</div>
+<div style="font-size:25px;font-weight:950;color:#fff;margin:5px 0 8px;">강재하</div>
+<div style="font-size:16.5px;color:#cbd5e1;line-height:1.7;">무심하고 과묵하지만 묵묵히 챙기는 일월각의 <b style="color:#c4b5fd;">해결사</b>.</div>
+<div style="margin-top:12px;padding:2px 0 2px 10px;border-left:1.5px solid rgba(196,181,253,.55);font-size:15px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#c4b5fd;">LAERT COMMENT</b><div style="margin-top:5px;">“말수는 적어도 <b>제법 꼼꼼한 듯합니다만</b>, 저랑 포지션이 겹쳐 심기가 불편합니다.”</div></div>
+</div>
+</div>
+<div style="flex:1 1 185px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/dtRB2TSp/s1.jpg" style="width:100%;height:250px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:12px;bottom:11px;font:12px monospace;letter-spacing:2px;color:#c4b5fd;">AGENT // 03</div>
+</div>
+<div style="padding:12px 10px 0;">
+<div style="font:13px monospace;color:#c4b5fd;">요원 · 23세 · 179cm</div>
+<div style="font-size:25px;font-weight:950;color:#fff;margin:5px 0 8px;">선우율</div>
+<div style="font-size:16.5px;color:#cbd5e1;line-height:1.7;">능글맞고 여유로운 태도의 <b style="color:#c4b5fd;">심리전의 고수</b>.</div>
+<div style="margin-top:12px;padding:2px 0 2px 10px;border-left:1.5px solid rgba(196,181,253,.55);font-size:15px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#c4b5fd;">LAERT COMMENT</b><div style="margin-top:5px;">“웃는 얼굴로 <b>상대의 허점을 찾는</b> 녀석입니다. 대화가 즐겁다고 방심하진 마십시오.”</div></div>
+</div>
+</div>
+</div>
+</div>
+<div style="margin-bottom:38px;">
+<div style="margin-bottom:20px;">
+<div style="font:12px monospace;letter-spacing:2px;color:#38bdf8;">FACTION_03 // GHOST</div>
+<div style="font-size:26px;font-weight:950;color:#f1f5f9;margin-top:6px;">III. 고스트</div>
+<div style="font-size:15px;color:#94a3b8;margin-top:4px;">디 언더 해커 집단</div>
+<div style="height:1px;background:linear-gradient(90deg,rgba(0,168,255,.55),transparent);margin-top:13px;"></div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:26px;">
+<div style="flex:1 1 185px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/cLwNMTGF/p5.png" style="width:100%;height:250px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:12px;bottom:11px;font:12px monospace;letter-spacing:2px;color:#7dd3fc;">LEADER // 01</div>
+</div>
+<div style="padding:12px 10px 0;">
+<div style="font:13px monospace;color:#38bdf8;">LEADER · 27세 · 184cm</div>
+<div style="font-size:25px;font-weight:950;color:#fff;margin:5px 0 8px;">팬텀</div>
+<div style="font-size:16.5px;color:#cbd5e1;line-height:1.7;">통제를 혐오해 디 언더에 숨은 나긋하고 <b style="color:#38bdf8;">온화한 중재자</b>.</div>
+<div style="margin-top:12px;padding-left:10px;border-left:1.5px solid rgba(0,168,255,.55);font-size:15px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#38bdf8;display:block;margin-bottom:4px;">LAERT COMMENT</b>“온화하게 웃으며 조율국 전산망을 터는 분입니다. 적이 아니라면 꽤 <b>유능한 방패</b>겠죠.”</div>
+</div>
+</div>
+<div style="flex:1 1 185px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/26pb901q/r3.png" style="width:100%;height:250px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:12px;bottom:11px;font:12px monospace;letter-spacing:2px;color:#7dd3fc;">INFILTRATION // 02</div>
+</div>
+<div style="padding:12px 10px 0;">
+<div style="font:13px monospace;color:#38bdf8;">침투 · 22세 · 173cm</div>
+<div style="font-size:25px;font-weight:950;color:#fff;margin:5px 0 8px;">레이븐</div>
+<div style="font-size:16.5px;color:#cbd5e1;line-height:1.7;">툴툴거리면서도 실속 챙기는 <b style="color:#38bdf8;">츤데레 요원</b>.</div>
+<div style="margin-top:12px;padding-left:10px;border-left:1.5px solid rgba(0,168,255,.55);font-size:15px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#38bdf8;display:block;margin-bottom:4px;">LAERT COMMENT</b>“잔소리는 조금 피곤하지만 <b>실력은 확실합니다.</b> 칭찬이라도 해주면 의외로 조용해질지도 모르겠군요.”</div>
+</div>
+</div>
+<div style="flex:1 1 185px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/NFSWR2JY/s2.png" style="width:100%;height:250px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:12px;bottom:11px;font:12px monospace;letter-spacing:2px;color:#7dd3fc;">HACKER // 03</div>
+</div>
+<div style="padding:12px 10px 0;">
+<div style="font:13px monospace;color:#38bdf8;">해커 · 24세 · 186cm</div>
+<div style="font-size:25px;font-weight:950;color:#fff;margin:5px 0 8px;">섀도우</div>
+<div style="font-size:16.5px;color:#cbd5e1;line-height:1.7;">LED 카모지 마스크를 쓴 <b style="color:#38bdf8;">괴짜 정보광</b>.</div>
+<div style="margin-top:12px;padding-left:10px;border-left:1.5px solid rgba(0,168,255,.55);font-size:15px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#38bdf8;display:block;margin-bottom:4px;">LAERT COMMENT</b>“정보 수집 능력은 탁월합니다. 다만 <b>자기 얼굴에 대한 자신감</b>만큼은 검증할 방법이 없군요.”</div>
+</div>
+</div>
+</div>
+</div>
+
+<div style="margin-bottom:30px;">
+<div style="margin-bottom:20px;">
+<div style="font:12px monospace;letter-spacing:2px;color:#c4b5fd;">FACTION_04 // FREEZEWALKERS</div>
+<div style="font-size:26px;font-weight:950;color:#ede9fe;margin-top:6px;">IV. 프리즈워커</div>
+<div style="font-size:15px;color:#a19bb8;margin-top:4px;">외부 설원 생존자</div>
+<div style="height:1px;background:linear-gradient(90deg,rgba(196,181,253,.5),transparent);margin-top:13px;"></div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:26px;">
+<div style="flex:1 1 240px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/jdkjkM9W/b3.png" style="width:100%;height:270px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:13px;bottom:12px;font:12px monospace;letter-spacing:2px;color:#c4b5fd;">LEADER // 01</div>
+</div>
+<div style="padding:13px 12px 0;">
+<div style="font:13px monospace;color:#c4b5fd;">LEADER · 25세 · 191cm</div>
+<div style="font-size:26px;font-weight:950;color:#fff;margin:5px 0 9px;">바르그</div>
+<div style="font-size:17px;color:#cbd5e1;line-height:1.75;">약육강식의 설원을 누비는 야성적 리더. 내 사람에겐 <b style="color:#c4b5fd;">집착적 보호 본능</b>.</div>
+<div style="margin-top:13px;padding-left:11px;border-left:1.5px solid rgba(196,181,253,.55);font-size:15.5px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#c4b5fd;display:block;margin-bottom:4px;">LAERT COMMENT</b>“논리보다 주먹이 먼저인 단순 명쾌한 분입니다. <b>맹수 길들이기</b>에 취미가 있다면 추천하죠.”</div>
+</div>
+</div>
+<div style="flex:1 1 240px;min-width:0;">
+<div style="position:relative;">
+<img src="https://i.postimg.cc/HLdF0g2b/r5.jpg" style="width:100%;height:270px;object-fit:cover;object-position:center 15%;display:block;">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(2,2,3,.88));"></div>
+<div style="position:absolute;left:13px;bottom:12px;font:12px monospace;letter-spacing:2px;color:#c4b5fd;">STRATEGIST // 02</div>
+</div>
+<div style="padding:13px 12px 0;">
+<div style="font:13px monospace;color:#c4b5fd;">STRATEGIST · 20세 · 168cm</div>
+<div style="font-size:26px;font-weight:950;color:#fff;margin:5px 0 9px;">루카</div>
+<div style="font-size:17px;color:#cbd5e1;line-height:1.75;">정에는 약하지만 확률 계산에는 철저한 <b style="color:#c4b5fd;">새침한 참모</b>.</div>
+<div style="margin-top:13px;padding-left:11px;border-left:1.5px solid rgba(196,181,253,.55);font-size:15.5px;color:#cbd5e1;line-height:1.7;"><b style="font:800 12px monospace;color:#c4b5fd;display:block;margin-bottom:4px;">LAERT COMMENT</b>“입으론 자살 행위라며 잔소리를 늘어놓지만, 막상 일이 터지면 <b>제일 먼저 몸을 던질 타입</b>이군요.”</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div style="margin:-35px 16px 30px;padding:0 12px;">
+<div style="font:13px monospace;color:#38bdf8;">AI PERSONNEL · CITY GUIDE</div>
+<div style="font-size:26px;font-weight:950;color:#fff;margin:5px 0 9px;">LAERT</div>
+<div style="font-size:17px;color:#cbd5e1;line-height:1.75;">출처 불명의 고성능 인공지능. 도시의 소문과 위험 신호를 실시간으로 브리핑하는 전담 비서.</div>
+<div style="margin-top:13px;padding-left:11px;border-left:1.5px solid rgba(56,189,248,.55);font-size:15.5px;color:#cbd5e1;line-height:1.7;">“데이터 분석 결과, 이 도시에서 가장 유능하고 매력적인 비서입니다. 반박은 받지 않습니다.”</div>
+</div>
+<br>
+
+<div style="margin-top:12px;padding:0 18px 20px;">
+
+<div style="padding:18px 0;border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:20px;">
+<div style="font:800 12px monospace;letter-spacing:2px;color:#38bdf8;margin-bottom:8px;"><span style="color:#00a8ff;font-size:12px;animation:flash 2s infinite;">●</span> LAERT // SYSTEM MESSAGE</div>
+<div style="font-size:30px;font-weight:900;color:#f1f5f9;letter-spacing:.5px;line-height:1.25;">OPENING GUIDE</div>
+<div style="font-size:19px;font-weight:800;color:#cbd5e1;margin-top:6px;">네온 아크에 진입할 3가지 오프닝 시나리오 중 하나를 선택해 주십시오.</div>
+<div style="font:11px monospace;color:#64748b;letter-spacing:1px;margin-top:9px;">OPENING SELECT // 3 SCENARIOS AVAILABLE</div>
+</div>
+
+<div style="font-size:17px;color:#cbd5e1;margin-bottom:24px;line-height:1.75;">“주인님, 입장권을 고르실 시간입니다. 머리가 복잡하시다면 <b>첫 번째</b>를 고르십시오. 생각을 비우고 시작하기에 가장 쾌적하니까요.”</div>
+
+<div style="padding:0 2px 22px;border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:22px;">
+<div style="font:800 12px monospace;color:#38bdf8;letter-spacing:1.5px;">01 // ORIGINAL UNIT <span style="margin-left:8px;color:#7dd3fc;"><span style="color:#00a8ff;font-size:12px;animation:flash 2s infinite;">●</span> RECOMMENDED</span></div>
+<div style="font-size:27px;font-weight:900;color:#fff;margin-top:9px;">No.00 <span style="font:700 13px monospace;color:#7dd3fc;">THE ORIGINAL</span></div>
+<div style="font-size:17px;font-weight:900;color:#7dd3fc;margin:9px 0 7px;">[결번｜No.00] 설원의 깨어난 원형 (입문 추천)</div>
+<div style="font-size:17.5px;color:#cbd5e1;line-height:1.8;">눈을 떠보니 기억이 말끔히 증발한 전설의 안드로이드입니다. 복잡한 설정 공부 없이 <b>‘몸만 유독 튼튼한 기억상실 인간’</b>처럼 굴면 딱 맞습니다. 다들 당신을 못 잡아먹어 안달이니, 우아하게 도망치며 세계관을 익히면 됩니다.</div>
+<div style="margin-top:14px;padding:12px 14px;border-left:2px solid #00a8ff;background:rgba(255,255,255,.03);font-size:16.5px;color:#cbd5e1;line-height:1.7;">
+<div style="font:800 11px monospace;color:#38bdf8;letter-spacing:1px;">UNKNOWN DATA // MOTHER CODE</div>
+<b style="display:block;font-size:17px;color:#e2e8f0;margin:6px 0;">마더코드 : 최고급 표적 패시브</b>
+당신 몸속에 든 정체불명의 코드입니다. 설원의 괴물(백귀)은 이걸 보고도 <b style="color:#38bdf8;">그냥 지나가는데</b>, 이상하게 인간들은 이거 뺏으려고 <b style="color:#38bdf8;">눈이 뒤집혀 달려듭니다.</b>
+</div>
+<div style="font-size:16px;color:#38bdf8;margin-top:13px;line-height:1.7;">“아무것도 모른다고 당황하지 마십시오. 태연하게 ‘원래 그런 건데요’ 하고 넘기시면 뒷수습은 제가 하겠습니다.”</div>
+</div>
+
+<div style="padding:0 2px 20px;border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:20px;">
+<div style="font:800 12px monospace;color:#B49AD1;letter-spacing:1.5px;">02 // EPIC SERIES</div>
+<div style="font-size:22px;font-weight:900;color:#fff;margin-top:8px;">No.02–08 <span style="font:13px monospace;color:#B49AD1;">AUTONOMOUS UNITS</span></div>
+<div style="font-size:16px;font-weight:800;color:#B49AD1;margin:8px 0 6px;">[에픽 안드로이드｜No.02~08] 최상위 특수개체</div>
+<div style="font-size:17px;color:#cbd5e1;line-height:1.75;">외모와 감정은 인간과 동일하며, 에픽끼리는 서로를 동족으로 인식합니다. <b>로봇 흉내 낼 필요 없이 인간처럼</b> 사시면 됩니다.</div>
+<div style="margin-top:12px;padding:12px;border-left:2px solid #9276B5;background:rgba(255,255,255,.03);font-size:16px;color:#cbd5e1;line-height:1.7;font-weight: 400;">
+<b style="color:#e2e8f0;display:block;margin-bottom:4px;">내 마음대로 사연 깎기</b>
+No.02~08 중 하나를 골라 외모부터 성격, 현재 처지까지 맘대로 세팅하세요.<br><br>
+· 조율국 최정예 <b>암살기</b>였으나, 제로와 눈이 맞아 조직을 배신하고 도주 중<br>
+· 백강휘의 <b>애착 인형</b>이 되어 위험한 총애와 집착을 독차지하는 중<br>
+· 강재하와 <b>위장 부부(계약 연인)</b>로 얽혀 비밀 동거 중<br>
+· 폐기 직전 팬텀에게 발견된 <b>고장 난 안드로이드</b>. 그의 보호를 받는 중<br>
+· 카인의 <b>전속 경호기</b>로 24시간 밀착 보좌하며 주종 이상의 관계로 발전 중<br>
+· 동료 에픽과 함께 조율국의 추적을 피해 도주하는 중<br>
+</div>
+<div style="font-size:15.5px;color:#B49AD1;margin-top:12px;line-height:1.65;">“이미 짜둔 서사가 있다면 이쪽이 제격입니다. 물론 설정이 너무 매워도 저는 눈 하나 깜짝하지 않습니다.”</div>
+</div>
+
+
+
+<div style="padding:0 2px 20px;border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:20px;">
+<div style="font:800 12px monospace;color:#62e9c0;letter-spacing:1.5px;">03 // HUMAN PERSONA</div>
+<div style="font-size:20px;font-weight:900;color:#fff;margin-top:8px;">CITIZEN / FREEZEWALKER</div>
+<div style="font-size:16px;font-weight:800;color:#62e9c0;margin:8px 0 6px;">[인간｜자유 설정] 네온 아크의 생존자</div>
+<div style="font-size:17px;color:#cbd5e1;line-height:1.75;">네온 아크 시민이나 프리즈워커로 시작합니다. 입장만 인간일 뿐, <b>특정 세력 소속부터 기존 NPC와의 관계(연인, 주종, 구원, 원수 등)까지</b> 자유롭게 세팅할 수 있습니다.</div>
+<div style="margin-top:12px;padding:12px;border-left:2px solid #10b981;background:rgba(255,255,255,.03);font-size:16px;color:#cbd5e1;line-height:1.7;font-weight: 400;">
+<b style="color:#e2e8f0;display:block;margin-bottom:4px;">내 취향대로 에픽 들이기 &amp; 무소속 제로</b>
+자작 에픽을 유저 노트에 적어 소유·동행할 수 있습니다. 또한 <b>인간 루트에서만 조율국 소속이던 제로(No.09)가 떠돌고 있으니</b> 주인 노릇이나 길들이기를 시도해 보십시오.<br><br>
+· 셀레스티아의 <b>상류층 재력가</b>로 에픽 안드로이드를 전속 호위 겸 애착 인형으로 영입<br>
+· 고독한 <b>프리즈워커</b>로 설원에서 부상당한 에픽을 구해 치료하고 비밀 동거 시작<br>
+· 코어 시티 암시장을 장악한 <b>일월각 간부이자 보스의 연인</b>으로 살아가기<br>
+· 디 언더의 천재 해커 집단 <b>고스트의 홍일점</b>으로 조직원들의 총애와 비밀 독차지하기<br>
+· 코어 시티에서 <b>해결사 사무소</b>를 운영하며 각종 의뢰를 해결하여 먹고 살기
+</div>
+<div style="font-size:15.5px;color:#62e9c0;margin-top:12px;line-height:1.65;">“거대 세력에 줄을 대든, 거물과 위험한 인연을 엮든 주인님 뜻입니다. 물론 내쳐져 파산하셔도 최단 경로의 알바 자리는 찾아드리죠.”</div>
+</div>
+
+<div style="padding:18px 2px 22px;border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:20px;">
+<div style="font:800 12px monospace;color:#38bdf8;letter-spacing:1.5px;">04 // SURVIVAL &amp; MODULE</div>
+<div style="font-size:20px;font-weight:900;color:#f1f5f9;margin:8px 0;">단말기 생존 가이드 (방전·동사 주의보)</div>
+<div style="font-size:17px;color:#cbd5e1;line-height:1.8;">위젯의 <b>ENERGY·HUNGER(에너지·허기)</b>와 <b>TEMP(체온 모듈)</b>만 챙겨도 길바닥에 눕는 불상사는 막을 수 있습니다.</div>
+
+<div style="margin-top:14px;padding:12px 14px;border-left:2px solid #00a8ff;background:rgba(255,255,255,.03);font-size:16.5px;color:#cbd5e1;line-height:1.7;">
+<div style="font:800 11px monospace;color:#38bdf8;letter-spacing:1px;">HUNGER // ENERGY &amp; HUNGER</div>
+<b style="display:block;font-size:17px;color:#e2e8f0;margin:6px 0;">에너지 &amp; 허기 (에너지 0%면 행동 불가)</b>
+<b>안드로이드</b>는 배터리팩이나 휴면, <b style="color:#38bdf8;">깊은 신체 접촉·관계</b>로 충전합니다. 방전돼도 죽진 않지만 전원이 꺼져 <b>먹통</b>이 되죠.<br><b>인간</b>은 <b>식사</b>가 필수입니다. 허기 0%여도 행동은 가능하지만 극심한 탈진과 판단력 저하가 발생합니다.
+</div>
+
+<div style="margin-top:12px;padding:12px 14px;border-left:2px solid #94a3b8;background:rgba(255,255,255,.03);font-size:16.5px;color:#cbd5e1;line-height:1.7;">
+<div style="font:800 11px monospace;color:#cbd5e1;letter-spacing:1px;">TEMP // THERMAL MODULE</div>
+<b style="display:block;font-size:17px;color:#e2e8f0;margin:6px 0;">체온 모듈 (충전·배터리 교체식 보온 장비)</b>
+<b>안드로이드</b>에겐 에너지 소모를 늦추는 <b>절전 꿀템</b>, <b>인간</b>에겐 <b style="color:#38bdf8;">생명줄</b>입니다. 돔 안은 버틸 만해도 모듈 없이 설원에 나가면 그대로 <b>동태</b>가 됩니다.
+</div>
+
+<div style="font-size:16px;color:#00a8ff;margin-top:13px;line-height:1.7;">“배터리 핑계로 들러붙든, 칼바람에 얼어붙든 주인님 마음입니다. 전 그저 숫자만 읊어드리죠.”</div>
+</div>
+
+<div style="margin-top:20px;text-align:center;">
+<div style="font-size:17.5px;color:#e2e8f0;line-height:1.8;">“준비되셨다면 편히 첫마디를 건네주십시오.<br>어떤 모습으로 오시든 완벽한 의전으로 모시겠습니다.”</div>
+<div style="font:800 11px monospace;color:#38bdf8;letter-spacing:1.5px;margin-top:12px;"><span style="color:#00a8ff;font-size:12px;animation:flash 2s infinite;">●</span> LAERT // BRIEFING COMPLETE</div>
+</div>
+</div>
+</div>
+<div style="position:absolute;bottom:-3px;left:-3px;width:16px;height:16px;border-bottom:2px solid #94a3b8;border-left:2px solid #94a3b8;z-index:5;"></div>
+<div style="position:absolute;bottom:-3px;right:-3px;width:16px;height:16px;border-bottom:2px solid #00a8ff;border-right:2px solid #00a8ff;z-index:5;"></div>
+</div>
+
+</body>
+</html>
